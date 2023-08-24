@@ -1,6 +1,8 @@
 # Next-JS-Base-Repo
 Base project for creating NextJs applications with base components
+
 This is just an example
+
 Back-end using C# ASP NET CORE
 
 # Implementations
