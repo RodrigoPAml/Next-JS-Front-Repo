@@ -1,18 +1,21 @@
 # Next-JS-Base-Repo
 Base project for creating NextJs applications with base components
 
-This is just an example
+This is just an example to use as a base to create a website using NextJS 
 
-Back-end using C# ASP NET CORE
+Back-end using C# ASP NET CORE with microservices (restAPI) (https://github.com/RodrigoPAml/ASP-NET-Base-project)
 
-# Implementations
+This example was used to create the badge websites in https://github.com/RodrigoPAml/BadgesWebsite
+
+# Base Implementations
 
   - Login
   - Generic Modals
   - Generic DataGrids
   - Generic Filtering and Ordering
   - Generic store and CRUD procedures
-  - Works with C# Back-End at https://github.com/RodrigoPAml/ASP-NET-Base-project
+  - Image upload component
+  - Works with C# Back-End 
 
 # DataGrid Example
 
@@ -105,11 +108,12 @@ Back-end using C# ASP NET CORE
 
 ## Login
 
-![image](https://github.com/RodrigoPAml/Next-JS-Base-Repo/assets/41243039/db89230f-5da0-448d-bad9-6846a85e083b)
+![image](https://github.com/RodrigoPAml/Next-JS-Base-Repo/assets/41243039/182d1964-2f0b-46fd-ac30-80a441c09b35)
+
 
 ## DataGrid
 
-![image](https://github.com/RodrigoPAml/Next-JS-Base-Repo/assets/41243039/f6e75f69-7500-4a7f-b23d-f63f4f45f8d1)
+![image](https://github.com/RodrigoPAml/Next-JS-Base-Repo/assets/41243039/88d656be-997a-4ecd-8633-698cd3f19e2b)
 
 Layout example
 
@@ -148,7 +152,7 @@ export default Layout;
 
 ## Generic filtering
 
-![image](https://github.com/RodrigoPAml/Next-JS-Base-Repo/assets/41243039/d1d1f85d-f179-41a7-898b-c180896b041f)
+![image](https://github.com/RodrigoPAml/Next-JS-Base-Repo/assets/41243039/4b665d21-6abe-4bb4-9192-80c8403427ea)
 
 Layout example:
 
@@ -188,6 +192,7 @@ export default Layout;
 
 ## Crud operations
 
-![image](https://github.com/RodrigoPAml/Next-JS-Base-Repo/assets/41243039/eb236fe0-c73c-4859-ad14-328bde94b6e0)
+![image](https://github.com/RodrigoPAml/Next-JS-Base-Repo/assets/41243039/49f3fd4b-aad1-46e4-a295-1972d028513e)
 
-![image](https://github.com/RodrigoPAml/Next-JS-Base-Repo/assets/41243039/f13f6e58-5619-44c0-a058-348bd2d3fdf5)
+![image](https://github.com/RodrigoPAml/Next-JS-Base-Repo/assets/41243039/4600c69d-7fa9-4ba5-80c7-41ccd0eaec56)
+
