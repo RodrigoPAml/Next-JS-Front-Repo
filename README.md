@@ -99,10 +99,7 @@ This example was used to create the badge websites (Take a look) in https://gith
 
 ## Requisition
 
-
 ![image](https://github.com/RodrigoPAml/Next-JS-Base-Repo/assets/41243039/a973c60b-c3df-4d26-8f88-7be9cf1b6a07)
-
-
 
 # Prints
 
@@ -162,25 +159,21 @@ import { options } from "./utils";
 const Layout = [
   {
     operation: '=',
-    type: 'ulong',
     field: 'id',
     name: 'Id'
   },
   {
     operation: '=',
-    type: 'string',
     field: 'name',
     name: 'Name'
   },
   {
     operation: '=',
-    type: 'uint',
     field: 'duration',
     name: 'Duration',
   },
   {
     operation: '=',
-    type: 'int',
     field: 'genre',
     name: 'Genre',
     options: options
