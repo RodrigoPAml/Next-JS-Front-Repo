@@ -8,6 +8,7 @@ import { GetStorage, SetStorage } from '../../components/storage';
 import { Avatar, Button, TextField, Grid, Box, Container, Typography, Card, Link, InputAdornment, IconButton, CircularProgress } from '@mui/material';
 import VisibilityIcon from '@mui/icons-material/Visibility';
 import VisibilityOffIcon from '@mui/icons-material/VisibilityOff';
+import Image from '../../public/background.jpg'
 
 class SignIn extends Store {
   constructor(props) {
@@ -53,7 +54,7 @@ class SignIn extends Store {
     }
 
     if (!this.state.mounted) {
-      return <Box sx={{ minHeight: '500px', height: '100%', width: '100%', bgcolor: 'rgb(247, 247, 247)' }}>
+      return <Box sx={{ minHeight: '500px', height: '100%', width: '100%', bgcolor: 'rgb(247, 247, 247, 0.5)' }}>
         <Container component="main" sx={{ justifyItems: 'center', alignItems: 'center' }} onSubmit={this.onSubmit}>
           <Box sx={{ height: '100%', width: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center', pt: '240px' }}>
             <CircularProgress sx={{ height: '100%', width: '100%' }} />
@@ -63,9 +64,28 @@ class SignIn extends Store {
     }
 
     return (
-      <>
-        <Box sx={{ pt: 13, pb: 13, height: '100%', width: '100%', bgcolor: 'rgb(247, 247, 247)' }}>
-          <Container sx={{ maxWidth: '600px' }} component="main" maxWidth="sm" onSubmit={this.onSubmit}>
+      <Box
+        sx={{
+          position: 'relative',
+          backgroundImage: `url(${Image.src})`,
+          backgroundSize: 'cover',
+          backgroundRepeat: 'no-repeat',
+          height: '800px',
+          width: '100%',
+          minHeight: '400px',
+        }}
+      >
+        <Box
+          sx={{
+            position: 'absolute',
+            top: 0,
+            left: 0,
+            width: '100%',
+            height: '100%',
+            backgroundColor: 'rgba(0, 0, 0, 0.4)',
+          }}
+        >
+          <Container sx={{ maxHeight: '100%', maxWidth: '600px', display: 'flex', width: '100%', height: '100%', alignItems: 'center', justifyContent: 'center' }} component="main" maxWidth="sm" onSubmit={this.onSubmit}>
             <Card sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', pt: '10px' }} >
               <Avatar sx={{ height: '60px', width: '60px', m: 1, bgcolor: 'rgba(0, 0, 0, 0.15)' }} >
                 <LockOutlinedIcon color='primary' />
@@ -152,7 +172,7 @@ class SignIn extends Store {
                   </Grid>
                   <Grid item>
                     <Link href='/signup'>
-                      Signup
+                      SignUp
                     </Link>
                   </Grid>
                 </Grid>
@@ -160,7 +180,7 @@ class SignIn extends Store {
             </Card>
           </Container>
         </Box>
-      </>
+      </Box>
     );
   }
 }

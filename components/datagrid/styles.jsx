@@ -5,7 +5,7 @@ const ODD_OPACITY = 0.2;
 
 const StyledDataGrid = styled(DataGrid)(({ theme }) => ({
   border: 0,
-  color: 'rgba(0,0,0,.85)',
+  color: 'rgba(255,255,255,0.9)',
   '&.MuiDataGrid-root .MuiDataGrid-cell:focus, .MuiDataGrid-columnHeader:focus, .MuiDataGrid-cell:focus-within': {
     outline: 'none !important',
   },
@@ -31,7 +31,7 @@ const StyledDataGrid = styled(DataGrid)(({ theme }) => ({
   },
   '& .MuiDataGrid-columnHeader': {
     border: `0px solid black`,
-    borderRight: '2px solid rgba(0, 0, 0, 0.3)',
+    borderRight: '2px solid rgba(255, 255, 255, 0.3)',
     borderRightStyle: 'dashed',
     borderLeft: '0px',
     borderRadius: '1px',

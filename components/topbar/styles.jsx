@@ -4,7 +4,7 @@ const styles = {
   topbar: {
     backgroundColor: theme.palette.primary.main,
     color: 'white',
-    minHeight: '66px',
+    minHeight: '69px',
     display: 'flex',
     justifyContent: 'center',
   },

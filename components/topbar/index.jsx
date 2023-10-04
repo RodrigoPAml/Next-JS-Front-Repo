@@ -45,7 +45,7 @@ const TopBar = (props) => {
       <AppBar position="fixed" sx={{ height: '0px' }}>
         <div style={styles.topbar}>
           <div style={styles.containerLeft}>
-            <MovieIcon></MovieIcon>
+            <MovieIcon sx={{width: '40px'}}></MovieIcon>
             CineOn
           </div>
           <Grid columnSpacing={2} container style={styles.container}>

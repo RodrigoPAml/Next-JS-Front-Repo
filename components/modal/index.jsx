@@ -32,7 +32,7 @@ const Modal = (props) => {
       aria-labelledby="draggable-dialog-title"
       sx={{ ...get(props, 'sxDialog', undefined) }}
     >
-      <DialogTitle sx={{ backgroundColor: theme.palette.primary.main, fontFamily: 'sans-serif', fontSize: { lg: 23, md: 20, sm: 20, xs: 20 }, id: 'draggable-dialog-title', cursor: 'move', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }} >
+      <DialogTitle sx={{ backgroundColor: theme.palette.primary.main, color: 'white', fontFamily: 'sans-serif', fontSize: { lg: 23, md: 20, sm: 20, xs: 20 }, id: 'draggable-dialog-title', cursor: 'move', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }} >
         {get(props, 'title', '')}
       </DialogTitle>
       <DialogContent sx={{ m: 0, p: 0, ...get(props, 'sxContent', undefined) }}>
