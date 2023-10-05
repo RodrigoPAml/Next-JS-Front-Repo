@@ -130,7 +130,7 @@ class DataGrid extends React.Component {
         return {
           field: get(item, 'field'),
           operation: get(item, 'operation'),
-          type: get(item, 'type'),
+          //type: get(item, 'type'),
           value: toString(get(item, 'value')),
         }
       })

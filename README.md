@@ -30,7 +30,7 @@ This example was used to create the badge websites (Take a look) in https://gith
     searchFilter={ // Fast search filter
       {
         operation: 'in',
-        type: 'string',
+        type: 'string', // To show right component
         field: 'name',
         name: 'Name'
       }}
@@ -159,21 +159,25 @@ import { options } from "./utils";
 const Layout = [
   {
     operation: '=',
+    type: 'ulong', // Type is only for the generic component, not needed in back-end
     field: 'id',
     name: 'Id'
   },
   {
     operation: '=',
+    type: 'string',
     field: 'name',
     name: 'Name'
   },
   {
     operation: '=',
+    type: 'uint',
     field: 'duration',
     name: 'Duration',
   },
   {
     operation: '=',
+    type: 'int',
     field: 'genre',
     name: 'Genre',
     options: options
