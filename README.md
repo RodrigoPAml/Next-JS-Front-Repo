@@ -5,6 +5,8 @@ This is just an example to use as a base to create a website using NextJS
 
 Back-end using C# ASP NET CORE with microservices (restAPI) (https://github.com/RodrigoPAml/ASP-NET-Base-project)
 
+But you can also write you own api directly with NextJS
+
 This example was used to create the badge websites (Take a look) in https://github.com/RodrigoPAml/BadgesWebsite
 
 # Base Implementations
