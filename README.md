@@ -1,4 +1,4 @@
-# Next-JS-Base-Repo
+# Next-JS-Front-Repo
 Base project for creating NextJs applications with base components
 
 This is just an example to use as a base to create a website using NextJS 
